@@ -450,6 +450,8 @@ public class ApiLogin {
 			
 			// Passwordless QR Registration Waiting WebSocket URL
 			if(url.equals("joinApUrl")) {
+                log.info("conecionUrl []", pushConnectorUrl);
+                System.out.println("conecionUrl []" + pushConnectorUrl);
 				modelMap.put("pushConnectorUrl", pushConnectorUrl);
 			}
 			
